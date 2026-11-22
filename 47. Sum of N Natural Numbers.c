@@ -1,0 +1,12 @@
+// 47. Sum of N Natural Numbers
+#include <stdio.h>
+
+int main() {
+    int n, i, sum = 0;
+    printf("Enter N: ");
+    scanf("%d", &n);
+    for (i = 1; i <= n; i++)
+        sum += i;
+    printf("Sum of first %d natural numbers = %d\n", n, sum);
+    return 0;
+}
